@@ -1,0 +1,273 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    padding: 10px;
+    background: #2e2c2c;
+    align-items: center;
+    justify-content: center;
+}
+
+.pura {
+    width: 100%;
+    /* min-height: 97vh; */
+    background-image: linear-gradient(rgba(1, 8, 84, 0.433), rgba(5, 0, 91, 0.438)), url(2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+}
+
+header {
+    padding-top: 2vw;
+    width: 98vw;
+    height: 7vh;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fistdiv {
+    display: inline-flex;
+    font-size: 0.99em;
+    align-content: center;
+    margin-bottom: 5px;
+    margin-left: 4vw;
+}
+
+.Fisth1 {
+    color: aqua;
+}
+
+.seconddiv {
+    margin-right: 10px;
+}
+
+ul {
+    display: inline-block;
+    list-style: none;
+}
+
+.six {
+    width: 7vw;
+    font-size: 1em;
+}
+
+.fix {
+    width: 80px;
+}
+
+li {
+    display: inline-flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+    opacity: 0.6;
+}
+
+.register {
+    margin: 10px;
+    padding: 6px;
+    align-items: center;
+    justify-content: center;
+    border: #8a99f916 2px solid;
+    border-radius: 5px;
+    background-color: #ffffff11;
+    backdrop-filter: blur(7px);
+}
+
+.register a {
+    display: inline-block;
+}
+
+main {
+    padding-top: 3vh;
+    padding-left: 2.5vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    color: white;
+    opacity: .7;
+}
+
+article {
+    color: white;
+    opacity: .7;
+}
+
+.sidewala {
+    margin-top: 10px;
+}
+
+section h1 {
+    font-size: 2.5em;
+}
+
+.dusra_div {
+    margin-top: 5px;
+    padding-top: 1vh;
+    padding-bottom: 1.5vh;
+    font-size: 1.3em;
+    opacity: .5;
+}
+
+.bichwala_ex {
+    opacity: .8;
+    margin-top: 3vh;
+    border: #8a99f916 2px solid;
+    border-radius: 0.7vw;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    width: 18vh;
+    height: 5vh;
+    background-color: #ffffff11;
+    backdrop-filter: blur(6px);
+}
+
+article div {
+    margin-bottom: 2vh;
+}
+
+h3 {
+    font-weight: 549.9;
+    font-size: 1.2em;
+}
+
+aside {
+    margin-top: 2vh;
+    margin-right: 11vw;
+    width: 63%;
+    height: 45vh;
+    border: #8a99f909 3px solid;
+    border-radius: 5vh;
+    background-color: #ffffff0e;
+    backdrop-filter: blur(4px);
+}
+
+.fistdiv1 {
+    margin-top: 1em;
+    margin-left: 1em;
+    color: white;
+    opacity: .5;
+}
+
+h4 {
+    margin-left: 5 px;
+}
+
+.h4 {
+    margin-left: 30px;
+}
+
+.img {
+    width: 13vw;
+    height: 40vh;
+    margin-top: 3vh;
+    margin-left: 1vw;
+    border-radius: 3vh;
+    background-image: linear-gradient(rgba(9, 0, 77, 0.2), rgba(9, 0, 77, 0.3)), url(1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img_cercl {
+    display: inline-table;
+}
+
+.cercle {
+    width: 4vh;
+    height: 4vh;
+    border: #8090f627 3px solid;
+    border-radius: 50%;
+    align-content: center;
+    text-align: center;
+    color: rgb(147, 186, 220);
+    font-size: 1.8rem;
+    margin-left: 2vw;
+    margin-top: -6.5vh;
+    position: absolute;
+    z-index: 99;
+    background-color: #ffffff08;
+    backdrop-filter: blur(5px);
+}
+
+.main_ka_bhai {
+    margin-left: 6vw;
+    margin-top: -15vh;
+    font-size: 4em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main_ka_bhai .h1 {
+    margin-left: 3vw;
+    background-clip: text;
+    background-color: #cec8f530;
+    color: transparent;
+}
+
+.main_ka_bhai .h2 {
+    margin-top: -3vh;
+    margin-left: 30vw;
+    background-clip: text;
+    background-color: #ffffff50;
+    color: transparent;
+}
+
+footer {
+    margin-top: -7.5vh;
+    width: 30vw;
+    height: 20vh;
+    border: rgba(41, 40, 40, 0.338) 2px solid;
+    border-radius: 0vh 7vh 0vh 8px;
+    background-color: #ffffff11;
+    backdrop-filter: blur(2px);
+}
+
+footer h5 {
+    font-size: 0.95rem;
+    margin-top: 2vh;
+    margin-left: 8px;
+    width: 28vw;
+    height: 6vw;
+    border: rgba(30, 30, 30, 0) 2px solid;
+    border-radius: 0vh 8vh 0vh 8px;
+}
+
+footer h5 b {
+    color: white;
+}
+
+.icon {
+    margin-top: 2.5vh;
+    display: flex;
+    font-style: italic;
+    margin-right: 15px;
+    /* align-content: end; */
+    /* align-items: end; */
+    justify-content: end;
+    gap: 2vw;
+}
+
+.icon img {
+    height: 3vh;
+    /* margin-bottom: 40px */
+    /* width: 1vw; */
+}
+
+i {
+    gap: 6px;
+    display: flex;
+    align-items: center;
+}
+
+
+/* @media(max-width:858px){} */
